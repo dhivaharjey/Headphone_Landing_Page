@@ -82,6 +82,11 @@ const sr = ScrollReveal({
 });
 
 sr.reveal(`.home__header, .section__title`, { delay: 600 });
+sr.reveal(`.home__subtitle`, {
+  origin: "right",
+  distance: "400px",
+  delay: 1200,
+});
 sr.reveal(`.home__footer`, { delay: 600 });
 sr.reveal(`.home__img`, { delay: 900, origin: "top" });
 
@@ -98,8 +103,9 @@ sr.reveal(`.products__img`, {
 });
 sr.reveal(`.specs__data, .discount__animate`, {
   origin: "left",
+  distance: "200px",
   delay: 400,
-  interval: 150,
+  interval: 200,
 });
 sr.reveal(`.specs__img, .discount__img`, { origin: "right" });
 sr.reveal(`.case__img`, { origin: "top" });
